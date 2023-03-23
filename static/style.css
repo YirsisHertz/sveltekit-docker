@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FF531A;
+    font-family: Arial;
+    font-weight: bold;
+    color: snow;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+nav {
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    padding: 2rem;
+}
+
+nav a {
+    color: snow;
+    text-decoration: none;
+    margin: 0px 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
